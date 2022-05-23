@@ -70,9 +70,6 @@ async function html() {
 html() 
 
 
-
-
-
 fs.createWriteStream(bundlePath) 
 fs.readdir(stylesPath, { withFileTypes: true }, (err, files) => {
   if (err) throw err 
